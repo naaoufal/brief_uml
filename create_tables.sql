@@ -60,7 +60,7 @@ create table Produits (
    nomproduit           varchar(254)         null,
    quantite             int                  null,
    prix                 double precision     null,
-   constraint PK_PRODUITS primary key nonclustered (Numeroproduit)
+   constraint PK_PRODUITS primary key nonclustered (numeroproduit)
 )
 
 -- use foreign key
