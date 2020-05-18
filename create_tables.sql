@@ -50,7 +50,3 @@ CREATE TABLE Produits (
     prix double,
     PRIMARY KEY (numeroproduit)
 );
-ALTER TABLE Lignecommande
-ADD FOREIGN KEY (numerocommande) REFERENCES Commande (numerocommande);
-ALTER TABLE Lignefacture
-ADD FOREIGN KEY (numerofacture) REFERENCES Facture (numerofacture);
