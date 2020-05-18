@@ -35,7 +35,7 @@ update facture set montant = 40000 where numerofacture = 3;
 delete from facture where numerofacture = 3;
 
 select *from Lignefacture;
-update lignefacture set montantlignefacture = 40000 where numerolignefacture = 2;
+update lignefacture set montant = 40000 where numerolignefacture = 2;
 delete from Lignefacture where numerolignefacture = 3;
 
 select *from produits;
